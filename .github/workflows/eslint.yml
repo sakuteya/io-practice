@@ -20,7 +20,7 @@ jobs:
           reporter: github-pr-review
           eslint_flags: './**/*.{vue,ts,js}'
           fail_on_error: 'true'
-        workdir: vue-app 
+          workdir: vue-app 
       - name: eslint
         run: npm run lint
 
