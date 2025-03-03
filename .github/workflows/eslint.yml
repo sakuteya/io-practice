@@ -10,7 +10,7 @@ jobs:
       run:
         working-directory: ./vue-app
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - name: npm ci
         run: npm ci
       - name: eslint review
