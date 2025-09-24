@@ -1,20 +1,45 @@
 <template>
+  <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
+  </head>
+  <!-- 1. ヘッダ -->
+  <!-- heroコンポーネント -->
+  <section class="hero is-dark">
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title">
+          heroを使ったタイトル
+        </h1>
+        <h2 class="subtitle is-6">
+          subtitle
+        </h2>
+      </div>
+    </div>
+  </section>
   <div>
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <HogeFuga msg="from App msg" />
   </div>
+  <!-- 3. フッタ -->
+  <!-- footerコンポーネント -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        ここはfooterです。
+      </p>
+    </div>
+  </footer>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-// import HelloWorld2 from './components/HelloWorld2.vue'
+import HogeFuga from './components/HogeFuga.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    HogeFuga
   }
 }
+
 </script>
 
 <style>
