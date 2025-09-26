@@ -11,7 +11,7 @@ const model = defineModel()
       入力欄3
     </div>
     <div class="column">
-      <input type="text" class="input" v-model="model" />
+      <input v-model="model" type="text" class="input">
     </div>
   </div>
 </template>

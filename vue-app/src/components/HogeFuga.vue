@@ -38,7 +38,7 @@ const textInput3 = ref('');
             入力欄2
           </div>
           <div class="column">
-            <input type="text" class="input" v-model="textInput2" />
+            <input v-model="textInput2" type="text" class="input">
           </div>
         </div>
         <ColumnInput v-model="textInput3" />
