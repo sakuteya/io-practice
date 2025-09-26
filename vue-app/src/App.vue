@@ -1,6 +1,8 @@
 <script setup>
-import HogeFuga from './components/HogeFuga.vue'
+import { useRoute } from 'vue-router'
 
+const route = useRoute()
+console.log(route.fullPath)
 </script>
 
 <template>
@@ -17,13 +19,17 @@ import HogeFuga from './components/HogeFuga.vue'
           heroを使ったタイトル
         </h1>
         <h2 class="subtitle is-6">
-          subtitle
+          <strong>Current route path:</strong>{{ route.fullPath }}
         </h2>
       </div>
     </div>
   </section>
   <div>
-    <HogeFuga msg="from App msg" />
+    <nav>
+      <RouterLink to="/">Go to Home</RouterLink>
+      <RouterLink to="/template-syntax">Go to template-syntax</RouterLink>
+    </nav>
+    <RouterView />
   </div>
   <!-- 3. フッタ -->
   <!-- footerコンポーネント -->
