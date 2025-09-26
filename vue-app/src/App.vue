@@ -1,4 +1,10 @@
+<script setup>
+import HogeFuga from './components/HogeFuga.vue'
+
+</script>
+
 <template>
+
   <head>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.4/css/bulma.min.css">
   </head>
@@ -29,18 +35,6 @@
     </div>
   </footer>
 </template>
-
-<script>
-import HogeFuga from './components/HogeFuga.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HogeFuga
-  }
-}
-
-</script>
 
 <style>
 #app {

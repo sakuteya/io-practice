@@ -4,8 +4,8 @@ import { ref } from 'vue';
 import CountButton from '../atoms/CountButton.vue'
 import ColumnInput from '../atoms/ColumnInput.vue'
 
-// defineProps({
-const props = defineProps({
+// const props = defineProps({
+defineProps({
   msg: {
     type: String,
     required: true,
