@@ -15,7 +15,7 @@ console.log(route.fullPath)
         <RouterLink to="/template-syntax">リアクティビティーの基礎</RouterLink>
       </div>
       <div class="columns">
-        <RouterLink to="/template-syntax">算出プロパティ</RouterLink>
+        <RouterLink to="/computed">算出プロパティ</RouterLink>
       </div>
     </div>
   </section>
