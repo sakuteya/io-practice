@@ -5,6 +5,7 @@ import HogeFuga from './pages/HogeFuga.vue'
 import TemplateSyntax from './pages/TemplateSyntax.vue'
 import ReactivityView from './pages/ReactivityView.vue'
 import ComputedView from './pages/ComputedView.vue'
+import TmpView from './pages/TmpView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes = [
@@ -13,6 +14,7 @@ const routes = [
   { path: '/template-syntax', component: TemplateSyntax },
   { path: '/reactivity-fundamentals', component: ReactivityView },
   { path: '/computed', component: ComputedView },
+  { path: '/tmp', component: TmpView },
 ]
 
 const router = createRouter({

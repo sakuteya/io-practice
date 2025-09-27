@@ -20,6 +20,9 @@ console.log(route.fullPath)
       <div class="columns">
         <RouterLink to="/computed">算出プロパティ</RouterLink>
       </div>
+      <div class="columns">
+        <RouterLink to="/tmp">TmpView</RouterLink>
+      </div>
     </div>
   </section>
 </template>
