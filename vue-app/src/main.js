@@ -1,4 +1,27 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import HomeView from './pages/HomeView.vue'
+import HogeFuga from './pages/HogeFuga.vue'
+import TemplateSyntax from './pages/TemplateSyntax.vue'
+import ReactivityView from './pages/ReactivityView.vue'
+import ComputedView from './pages/ComputedView.vue'
+import TmpView from './pages/TmpView.vue'
+import { createRouter, createWebHistory } from 'vue-router'
 
-createApp(App).mount('#app')
+const routes = [
+  { path: '/', component: HomeView },
+  { path: '/hoge-fuga', component: HogeFuga, props: { msg: 'from router' } },
+  { path: '/template-syntax', component: TemplateSyntax },
+  { path: '/reactivity-fundamentals', component: ReactivityView },
+  { path: '/computed', component: ComputedView },
+  { path: '/tmp', component: TmpView },
+]
+
+const router = createRouter({
+  history: createWebHistory(),
+  routes
+})
+
+const app = createApp(App)
+app.use(router)
+app.mount('#app')
