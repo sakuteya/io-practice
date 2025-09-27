@@ -21,16 +21,14 @@ console.log(route.fullPath)
         <h2 class="subtitle is-6">
           <strong>Current route path:</strong>{{ route.fullPath }}
         </h2>
+        <h2 class="subtitle is-6">
+          <RouterLink to="/">Go to Home</RouterLink>
+        </h2>
       </div>
     </div>
   </section>
-  <div>
-    <nav>
-      <RouterLink to="/">Go to Home</RouterLink>
-      <RouterLink to="/template-syntax">Go to template-syntax</RouterLink>
-    </nav>
-    <RouterView />
-  </div>
+  <!-- 2. 本文 -->
+  <RouterView />
   <!-- 3. フッタ -->
   <!-- footerコンポーネント -->
   <footer class="footer">
