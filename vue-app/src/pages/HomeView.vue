@@ -15,6 +15,9 @@ console.log(route.fullPath)
         <RouterLink to="/template-syntax">テンプレート構文</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/reactivity-fundamentals">リアクティビティーの基礎</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/computed">算出プロパティ</RouterLink>
       </div>
     </div>
