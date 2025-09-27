@@ -1,0 +1,19 @@
+<script setup>
+import { useRoute } from 'vue-router'
+
+const route = useRoute()
+console.log(route.fullPath)
+</script>
+
+<template>
+  <section class="section">
+    <div class="container">
+      <div class="columns">
+        <RouterLink to="/hoge-fuga">Go to HogeFuga</RouterLink>
+      </div>
+      <div class="columns">
+        <RouterLink to="/template-syntax">Go to template-syntax</RouterLink>
+      </div>
+    </div>
+  </section>
+</template>
