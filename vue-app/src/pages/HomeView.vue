@@ -12,7 +12,7 @@ console.log(route.fullPath)
         <RouterLink to="/hoge-fuga">Go to HogeFuga</RouterLink>
       </div>
       <div class="columns">
-        <RouterLink to="/template-syntax">リアクティビティーの基礎</RouterLink>
+        <RouterLink to="/template-syntax">テンプレート構文</RouterLink>
       </div>
       <div class="columns">
         <RouterLink to="/computed">算出プロパティ</RouterLink>
