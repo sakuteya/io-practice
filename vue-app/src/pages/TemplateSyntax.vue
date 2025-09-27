@@ -28,6 +28,7 @@ const url = 'https://ja.vuejs.org/guide/essentials/template-syntax.html#directiv
 
 <template>
   <section class="content section">
+    <h1 class="title">リアクティビティーの基礎</h1>
     <!-- 生の HTML -->
     <div class="container">
       <h3>生の HTML</h3>
