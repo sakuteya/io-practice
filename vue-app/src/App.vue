@@ -33,9 +33,8 @@ console.log(route.fullPath)
   <!-- footerコンポーネント -->
   <footer class="footer">
     <div class="content has-text-centered">
-      <p>
-        ここはfooterです。
-      </p>
+      <p>https://sakuteya.github.io/ では直リンで開けません</p>
+      <a href="https://sakuteya.github.io/io-practice/">https://sakuteya.github.io/io-practice/</a>
     </div>
   </footer>
 </template>
