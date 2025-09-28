@@ -42,6 +42,9 @@ console.log(route.fullPath)
         <RouterLink to="/template">テンプレート参照</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/component-basics">コンポーネントの基礎</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/tmp">TmpView</RouterLink>
       </div>
     </div>
