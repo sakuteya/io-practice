@@ -11,6 +11,7 @@ import ListView from './pages/ListView.vue'
 import EventView from './pages/EventView.vue'
 import FormsView from './pages/FormsView.vue'
 import WatchersView from './pages/WatchersView.vue'
+import TemplateView from './pages/TemplateView.vue'
 import TmpView from './pages/TmpView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -26,6 +27,7 @@ const routes = [
   { path: '/event-handling', component: EventView },
   { path: '/forms', component: FormsView },
   { path: '/watchers', component: WatchersView },
+  { path: '/template', component: TemplateView },
   { path: '/tmp', component: TmpView },
 ]
 

@@ -39,6 +39,9 @@ console.log(route.fullPath)
         <RouterLink to="/watchers">ウォッチャー</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/template">テンプレート参照</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/tmp">TmpView</RouterLink>
       </div>
     </div>
