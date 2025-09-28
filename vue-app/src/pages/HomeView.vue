@@ -36,6 +36,9 @@ console.log(route.fullPath)
         <RouterLink to="/forms">フォーム入力バインディング</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/watchers">ウォッチャー</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/tmp">TmpView</RouterLink>
       </div>
     </div>

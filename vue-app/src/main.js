@@ -10,6 +10,7 @@ import ConditionalView from './pages/ConditionalView.vue'
 import ListView from './pages/ListView.vue'
 import EventView from './pages/EventView.vue'
 import FormsView from './pages/FormsView.vue'
+import WatchersView from './pages/WatchersView.vue'
 import TmpView from './pages/TmpView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -24,6 +25,7 @@ const routes = [
   { path: '/list', component: ListView },
   { path: '/event-handling', component: EventView },
   { path: '/forms', component: FormsView },
+  { path: '/watchers', component: WatchersView },
   { path: '/tmp', component: TmpView },
 ]
 
