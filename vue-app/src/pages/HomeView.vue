@@ -24,6 +24,9 @@ console.log(route.fullPath)
         <RouterLink to="/class-and-style">クラスとスタイルのバインディング</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/conditional">条件付きレンダリング</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/tmp">TmpView</RouterLink>
       </div>
     </div>
