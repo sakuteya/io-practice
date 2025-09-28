@@ -8,6 +8,7 @@ import ComputedView from './pages/ComputedView.vue'
 import ClassView from './pages/ClassView.vue'
 import ConditionalView from './pages/ConditionalView.vue'
 import ListView from './pages/ListView.vue'
+import EventView from './pages/EventView.vue'
 import TmpView from './pages/TmpView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -20,6 +21,7 @@ const routes = [
   { path: '/class-and-style', component: ClassView },
   { path: '/conditional', component: ConditionalView },
   { path: '/list', component: ListView },
+  { path: '/event-handling', component: EventView },
   { path: '/tmp', component: TmpView },
 ]
 

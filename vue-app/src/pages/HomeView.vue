@@ -30,6 +30,9 @@ console.log(route.fullPath)
         <RouterLink to="/list">リストレンダリング</RouterLink>
       </div>
       <div class="columns">
+        <RouterLink to="/event-handling">イベントハンドリング</RouterLink>
+      </div>
+      <div class="columns">
         <RouterLink to="/tmp">TmpView</RouterLink>
       </div>
     </div>
