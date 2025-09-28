@@ -7,6 +7,7 @@ import ReactivityView from './pages/ReactivityView.vue'
 import ComputedView from './pages/ComputedView.vue'
 import ClassView from './pages/ClassView.vue'
 import ConditionalView from './pages/ConditionalView.vue'
+import ListView from './pages/ListView.vue'
 import TmpView from './pages/TmpView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
@@ -18,6 +19,7 @@ const routes = [
   { path: '/computed', component: ComputedView },
   { path: '/class-and-style', component: ClassView },
   { path: '/conditional', component: ConditionalView },
+  { path: '/list', component: ListView },
   { path: '/tmp', component: TmpView },
 ]
 
